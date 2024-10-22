@@ -1,0 +1,33 @@
+catatan mengenai webserver: intinya php kalo mau dijalanin harus pake webserver dulu buat di eksekusi program php kalian yang outputnya berupa html
+
+webserver : (apache, nginx, lighttpd, etc)
+
+windows :
+->Laragon : www
+->XAMPP 	: htdocs
+
+Mac/Linux : /var/www 
+->(buka lewat terminal "cd /var/www")
+
+
+---------------------------------------------------------------------------------------------------------------------
+
+
+Latihan:
+1) coba buat 3 variabel yang dijumlahkan/dikurang/dikali/dibagi
+2) latihan membuat luas persegi yang satu sisi nya 64 dengan hasil =4096
+3) latihan membuat luas persegi panjang yang panjangnya 34 lebarnya 23 dengan hasil = 782
+4) buat keliling persegi panjang dengan panjang lebar sama seperti nomor 2
+
+
+
+Tugas:
+buat class dengan fungsi yang bisa menghitung 
+-luas persegi panjang
+-keliling persegi panjang
+-luas keliling persegi
+-luas segitiga
+-luas lingkaran
+-keliling lingkaran
+tugasnya push ke github, dikumpul dengan link repository kalian
+
