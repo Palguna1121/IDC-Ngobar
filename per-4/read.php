@@ -9,6 +9,7 @@
 
 <body>
     <h1>Menampilkan user</h1>
+    <a href="create.php">tambah data user</a>
     <table border="1">
         <tr>
             <th>No</th>
