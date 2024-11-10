@@ -14,8 +14,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     //mengeksekusi query dan mengecek apakah sukses atau tidak
     if ($stmt->execute()) {
         echo "berhasil menambahkan data";
+        return header("Location: read.php");
     } else {
         echo "terjadi kesalahan dalam menambahkan data";
+        return header("Location: read.php");
     }
 
     //menutup statement dan koneksi
