@@ -30,7 +30,7 @@
                 <td><?= $row['password'] ?></td>
                 <td>
                     <a href="update.php?id=<?= $row['id'] ?>">Edit</a>
-                    <a href="delete.php?id=<?= $row['id'] ?>">Delete</a>
+                    <a href="delete.php?id=<?= $row['id'] ?>">Hapus</a>
                 </td>
             </tr>
         <?php
