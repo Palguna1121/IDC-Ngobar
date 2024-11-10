@@ -31,7 +31,7 @@
                 <td><?= $row['password'] ?></td>
                 <td>
                     <a href="update.php?id=<?= $row['id'] ?>">Edit</a>
-                    <a href="delete.php?id=<?= $row['id'] ?>">Hapus</a>
+                    <a href="javascript:if(confirm('Apakah yakin menghapus data <?= $row['username'] ?>?')) window.location.href='delete.php?id=<?= $row['id'] ?>'">Hapus</a>
                 </td>
             </tr>
         <?php
